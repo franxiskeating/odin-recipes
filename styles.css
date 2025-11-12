@@ -10,7 +10,7 @@ p {
 }
 
 .rainbow-text {
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-  background-clip: text;
-  text-fill-color: transparent;
+  -webkit-background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
